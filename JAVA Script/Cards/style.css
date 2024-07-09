@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  height: 100px;
+  width: 400px;
+  border: 1px solid black;
+  margin: 20px;
+  display: none;
+}
+
+.cards.active {
+  display: inline-table;
+}
